@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet/less" type="text/css" href="style.less">
+		<script src="js/less-1.0.41.min.js" type="text/javascript"></script>
+		<script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+		<script type="text/javascript"> 
+		$(function(){
+		
+			$('#em-error').dialog({
+				dialogClass: 'em-error-block',
+				zIndex : 100600,
+				closeText: 'x',
+				modal: true
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="gadget">
+			<h1>First Level Heading</h1>
+			<h2>Second Level Header</h2>
+			<p>Plain text plain text plain <a>links</a> text plain text plain text plain text plain text plain text plain text plain text plain <a>links</a> text plain text plain text plain text plain text plain text plain text plain text plain text plain text plain text plain text plain text plain text.</p>
+			<h2>Second Level Header</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>th</th>
+						<th>th</th>
+						<th>th</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>td</td>
+						<td>td</td>
+						<td>td</td>
+					</tr>
+					<tr>
+						<td>td</td>
+						<td>td</td>
+						<td>td</td>
+					</tr>
+					<tr>
+						<td>td</td>
+						<td>td</td>
+						<td>td</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="em-error" title="Basic modal dialog">
+			<p>Adding the modal overlay screen makes the dialog look more prominent because it dims out the page content.</p>
+		</div>
+	</body>
+</html>
